@@ -1,0 +1,499 @@
+img {
+    width: 100%;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+        url(./assest/banner-bg.png);
+
+    header {
+        .navbar {
+            padding-top: 38px;
+            padding-bottom: 113px;
+
+            .navbar-collapse {
+                .navbar-nav {
+                    gap: 10px;
+
+                    .nav-item {
+                        a {
+                            color: #FFF;
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            text-decoration-line: underline;
+                        }
+                    }
+                }
+
+                form {
+                    gap: 27px;
+                }
+            }
+        }
+    }
+
+    .banner-content {
+        h1 {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Manrope', sans-serif;
+            font-size: 73px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 90px;
+            padding-bottom: 26px;
+        }
+
+        .line {
+            width: 310px;
+            height: 2px;
+            flex-shrink: 0;
+            background: #D8D8D8;
+            margin: auto;
+        }
+
+        p {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+            padding-top: 40px;
+            padding-bottom: 182px;
+            margin: 0;
+        }
+    }
+}
+
+.hydrogen-cards {
+    .cards {
+        max-width: 1088px;
+        margin: auto;
+
+        .card1 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                    rgba(0, 0, 0, 0.4)),
+                url(./assest/card1-bg.png);
+            background-repeat: no-repeat;
+            padding: 272px 20px 42px 38px;
+            background-size: 100%;
+            margin-top: 29px;
+
+            .card-content {
+                p {
+                    color: #FFF;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin: 0;
+                }
+            }
+        }
+
+        .card2 {
+            position: relative;
+            margin-top: 30px;
+
+            .banner-content {
+                background-color: rgba($color: #fff, $alpha: 0.6);
+                position: absolute;
+                bottom: 0;
+                margin: 152px 5px 8px 5px;
+
+                p {
+                    padding: 30px 18px 16px 19px;
+                    color: #000;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+        }
+
+        .card3 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                    rgba(0, 0, 0, 0.4)),
+                url(./assest/card3-bg.png);
+            margin-top: 30px;
+
+            .card-content {
+                padding: 169px 39px 88px 28px;
+
+                p {
+                    color: #FFF;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+.our-goals {
+    .goal-heading {
+        margin-inline: 142px;
+        padding-block: 77px 68px;
+
+        h1 {
+            color: #0F1121;
+            text-align: center;
+            font-family: 'Manrope', sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    .patner {
+        text-align: end;
+
+        img {
+            width: 50%;
+        }
+    }
+}
+
+
+.latest-news {
+    padding-left: 291px;
+    padding-right: 129px;
+
+    .news-heading {
+        h1 {
+            margin: 0;
+            padding-block: 65px 18px;
+            color: #0F1121;
+            font-family: 'Manrope', sans-serif;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+
+    .news-lable {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            color: #6F707A;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        span {
+            color: #509702;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+    .news-cards {
+        padding-top: 99px;
+
+        .news-card {
+            border: 1px solid rgba(15, 52, 127, 0.20);
+            background: #FFF;
+            padding: 32px 32px 150px 32px;
+
+            .nC-body {
+                h6 {
+                    color: #6F707A;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin: 0;
+                    padding-bottom: 10px;
+                }
+
+                h1 {
+                    color: #0F1121;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                p {
+                    color: #6F707A;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding-top: 19px;
+                    margin: 0;
+                }
+            }
+
+            .reports {
+                padding-bottom: 77px;
+            }
+        }
+
+        .report-card {
+            border: 1px solid rgba(15, 52, 127, 0.20);
+            background: #FFF;
+            padding: 32px 32px 70px 32px;
+
+            .nC-body {
+                h6 {
+                    color: #6F707A;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin: 0;
+                    padding-bottom: 10px;
+                }
+
+                h1 {
+                    color: #0F1121;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                p {
+                    color: #6F707A;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding-top: 19px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.footer {
+    background: #150E06;
+    padding-top: 76px;
+    margin-top: 55px;
+
+    .footer-content {
+        padding-bottom: 71px;
+        display: flex;
+        justify-content: space-between;
+
+        .footer-link {
+            display: flex;
+            gap: 10px;
+
+            a {
+                background-color: #626a6b;
+                padding: 8px 10px;
+                border-radius: 30px;
+
+                svg {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .footer-line {
+        width: 512px;
+        height: 1px;
+        opacity: 0.2;
+        background: #F3F5F7;
+        margin: auto;
+    }
+
+    .footer-copy-right {
+        p {
+            padding-bottom: 14px;
+            text-align: center;
+            color: #FFF;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            margin: 0;
+            padding-top: 8px;
+        }
+    }
+}
+
+
+
+@media(max-width:1400px) {
+    .banner header .navbar .navbar-collapse .navbar-nav .nav-item a {
+        padding-right: 0;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 65px;
+        line-height: 80px;
+    }
+
+    .banner .banner-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .our-goals .goal-heading h1 {
+        font-size: 25px;
+    }
+
+    .patners img {
+        width: 40%;
+    }
+
+    .latest-news {
+        padding-left: 45px;
+    }
+
+}
+
+@media(max-width:1200px) {
+    .banner header .navbar .navbar-collapse .navbar-nav .nav-item a {
+        font-size: 9px;
+    }
+
+    .banner header .navbar .navbar-collapse form {
+        gap: 15px;
+    }
+
+    .hydrogen-cards .cards .card3 .card-content {
+        padding: 169px 39px 12px 28px;
+    }
+
+    .hydrogen-cards .cards .card2 .banner-content p {
+        font-size: 17px;
+    }
+
+    .our-goals .goal-heading h1 {
+        font-size: 19px;
+    }
+
+    .latest-news .news-heading h1 {
+        font-size: 40px;
+    }
+    .latest-news .news-cards .report-card .nC-body h1{
+    font-size: 18px;
+    }
+    .latest-news .news-cards .news-card .nC-body h1{
+    font-size: 18px;
+    }
+    .latest-news .news-cards .news-card .nC-body p{
+    padding-top: 35px;
+    }
+  
+}
+@media(max-width:992px){
+  .navbar-toggler{
+    background-color: #fff;
+    border-color: #fff;
+    }
+    .banner header .navbar .navbar-collapse form a{
+    display: none;
+    }
+    .banner header .navbar .navbar-collapse .navbar-nav .nav-item a {
+    font-size: 19px;
+}
+.banner header .navbar .navbar-collapse .navbar-nav{
+padding-top: 20px;
+}
+.banner .banner-content h1 {
+    font-size: 49px;
+    line-height: 68px;
+}
+.banner .banner-content p {
+font-size: 15px;
+}
+.hydrogen-cards .cards .card1 .card-content p {
+font-size: 18px;
+}
+.our-goals .goal-heading{
+    margin-inline: 50px;
+}
+.our-goals .goal-heading h1 {
+    font-size: 18px;
+}
+.latest-news{
+    padding-right: 45px;
+}
+.latest-news .news-cards .report-card{
+    margin-top: 45px;
+}
+}
+@media(max-width:576px){
+    .banner .banner-content h1 {
+        font-size: 24px;
+        line-height: 46px;
+    }
+    .banner .banner-content p{
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .hydrogen-cards .cards .card2 .banner-content p {
+        font-size: 11px;
+    }
+    .hydrogen-cards .cards .card3 .card-content p{
+        font-size: 16px;
+    }
+    .hydrogen-cards .cards .card3 .card-content {
+        padding: 76px 10px 12px 12px;
+    }
+    .hydrogen-cards .cards .card1{
+        padding: 80px 12px 20px 12px;
+    }
+    .hydrogen-cards .cards .card1 .card-content p {
+        font-size: 11px;
+    }
+    .latest-news{
+        padding-inline: 10px;
+    }
+    .latest-news .news-heading h1 {
+        font-size: 20px;
+    }
+    .latest-news .news-lable p {
+  font-size: 16px;
+  line-height: 23px;
+}
+.footer .footer-content{
+    display: grid;
+    grid-template-columns: auto;
+    padding-left: 40px;
+}
+.footer .footer-content .footer-link{
+    padding-top: 20px;
+}
+}
