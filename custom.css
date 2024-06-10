@@ -387,6 +387,9 @@ img {
   .hydrogen-cards .cards .card2 .banner-content p {
     font-size: 11px;
   }
+  .footer .footer-line {
+    width: 484px;
+  }
   .hydrogen-cards .cards .card3 .card-content p {
     font-size: 16px;
   }
@@ -416,6 +419,12 @@ img {
   }
   .footer .footer-content .footer-link {
     padding-top: 20px;
+  }
+  .footer .footer-line {
+    width: 262px;
+  }
+  .banner .banner-content .line {
+    width: 272px;
   }
 }/*# sourceMappingURL=custom.css.map */
 .our-goals img{
